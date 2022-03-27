@@ -96,10 +96,10 @@ const HeaderNav = ({ selectedPage, setSelectedPage }) => {
 
       {/* sm Nav */}
       <div className="text-white fixed bottom-0 z-40 lg:hidden w-full">
-        <ul className="flex justify-around p-3 bg-[#2b2a2a]">
+        <ul className="flex flex-row-reverse justify-around p-3 bg-[#2b2a2a]">
           <li
             className={`p-3 rounded-full cursor-pointer hover:bg-mainyellow ${
-              selectedPage === "home" ? "bg-mainyellow" : "bg-[#2b2b2b]"
+              selectedPage === "home" ? "bg-mainyellow" : "bg-[#444]"
             }`}
             onClick={() => setSelectedPage("home")}
           >
@@ -123,7 +123,7 @@ const HeaderNav = ({ selectedPage, setSelectedPage }) => {
           </li>
           <li
             className={`p-3 rounded-full cursor-pointer hover:bg-mainyellow ${
-              selectedPage === "about" ? "bg-mainyellow" : "bg-[#2b2b2b]"
+              selectedPage === "about" ? "bg-mainyellow" : "bg-[#444]"
             }`}
             onClick={() => setSelectedPage("about")}
           >
@@ -144,7 +144,7 @@ const HeaderNav = ({ selectedPage, setSelectedPage }) => {
           </li>
           <li
             className={`p-3 rounded-full cursor-pointer hover:bg-mainyellow ${
-              selectedPage === "contact" ? "bg-mainyellow" : "bg-[#2b2b2b]"
+              selectedPage === "contact" ? "bg-mainyellow" : "bg-[#444]"
             }`}
             onClick={() => setSelectedPage("contact")}
           >
@@ -165,7 +165,7 @@ const HeaderNav = ({ selectedPage, setSelectedPage }) => {
           </li>
           <li
             className={`p-3 rounded-full cursor-pointer hover:bg-mainyellow ${
-              selectedPage === "portfolio" ? "bg-mainyellow" : "bg-[#2b2b2b]"
+              selectedPage === "portfolio" ? "bg-mainyellow" : "bg-[#444]"
             }`}
             onClick={() => setSelectedPage("portfolio")}
           >
