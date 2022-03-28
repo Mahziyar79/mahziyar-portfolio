@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import AnimatedCursor from "react-animated-cursor";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -26,10 +27,12 @@ function App() {
         <DarkModeBtn darkmode={darkmode} setDarkMode={setDarkMode} />
       </div>
 
-      {selectedPage === "home" && <Home setSelectedPage={setSelectedPage} />}
       {/* Home Page */}
-      {selectedPage === "about" && <About />}
+      {selectedPage === "home" && <Home setSelectedPage={setSelectedPage} />}
       {/* About Page */}
+      {selectedPage === "about" && <About />}
+      {/* Contact Page */}
+      {selectedPage === "contact" && <Contact />}
     </div>
   );
 }

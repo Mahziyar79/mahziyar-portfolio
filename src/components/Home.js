@@ -1,5 +1,4 @@
-import mainImage from "../assets/images/main-image.jpg";
-import Button from "../common/Button";
+import Image from "../assets/images/image.jpg";
 
 const aboutSvg = (
   <svg
@@ -25,7 +24,7 @@ const Home = ({ setSelectedPage }) => {
         <div className="bg-mainyellow h-[200%] -rotate-[15deg] absolute w-[30%] -left-[250px] hidden lg:block rounded-lg"></div>
         <div className="w-[30%] h-screen text-white z-20 hidden lg:flex items-center ml-6 relative">
           <img
-            src={mainImage}
+            src={Image}
             alt="userImage"
             className="h-[calc(100vh-80px)] shadow-lg rounded-3xl z-10 hidden lg:flex object-cover"
           />
@@ -35,7 +34,7 @@ const Home = ({ setSelectedPage }) => {
             <div>
               <img
                 className="rounded-full object-cover w-64 h-64 mb-5 m-auto border-4 border-slate-800 lg:hidden"
-                src={mainImage}
+                src={Image}
                 alt="mainImage"
               />
             </div>
@@ -53,7 +52,17 @@ const Home = ({ setSelectedPage }) => {
               lives of those around me.
             </div>
             <div>
-              <Button title='more about me' svg={aboutSvg}/>
+              <div
+                onClick={() => setSelectedPage("about")}
+                className="inline-block border mt-8 border-mainyellow rounded-full cursor-pointer hover:bg-mainyellow transition-all duration-200"
+              >
+                <div className="flex items-center">
+                  <p className="uppercase pl-6 text-sm p-4">more about me</p>
+                  <div className="bg-mainyellow p-4 rounded-full">
+                    {aboutSvg}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
