@@ -1,4 +1,22 @@
 import mainImage from "../assets/images/main-image.jpg";
+import Button from "../common/Button";
+
+const aboutSvg = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="h-6 w-6"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    strokeWidth="2"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M14 5l7 7m0 0l-7 7m7-7H3"
+    />
+  </svg>
+);
 
 const Home = ({ setSelectedPage }) => {
   return (
@@ -35,30 +53,7 @@ const Home = ({ setSelectedPage }) => {
               lives of those around me.
             </div>
             <div>
-              <div
-                className="inline-block border mt-8 border-mainyellow rounded-full cursor-pointer hover:bg-mainyellow transition-all duration-200"
-                onClick={() => setSelectedPage("about")}
-              >
-                <div className="flex items-center">
-                  <p className="uppercase pl-6 text-sm p-4">More about me</p>
-                  <div className="bg-mainyellow p-4 rounded-full">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"
-                      />
-                    </svg>
-                  </div>
-                </div>
-              </div>
+              <Button title='more about me' svg={aboutSvg}/>
             </div>
           </div>
         </div>
