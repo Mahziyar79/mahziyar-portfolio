@@ -21,7 +21,7 @@ const Home = ({ setSelectedPage }) => {
   return (
     <section className="lg:overflow-hidden z-0">
       <div className="flex relative items-center">
-        <div className="bg-mainyellow h-[200%] -rotate-[15deg] absolute w-[30%] -left-[250px] hidden lg:block rounded-lg"></div>
+        <div className="bg-mainyellow dark:bg-mainGreen h-[200%] -rotate-[15deg] absolute w-[30%] -left-[250px] hidden lg:block rounded-lg"></div>
         <div className="w-[30%] h-screen text-white z-20 hidden lg:flex items-center ml-6 relative">
           <img
             src={Image}
@@ -39,12 +39,12 @@ const Home = ({ setSelectedPage }) => {
               />
             </div>
             <div className="uppercase text-[29px] md:text-[38px] 2xl:text-[46px] xl:text-[40px] font-bold">
-              <h1 className="text-mainyellow xl:before:content-[''] before:content-none before:absolute before:top-[42%] before:-left-[8%] before:rounded-lg before:bg-mainyellow before:w-10 before:h-2 relative">
+              <h1 className="text-mainyellow dark:text-mainGreen xl:before:content-[''] before:content-none before:absolute before:top-[42%] before:-left-[8%] before:rounded-lg before:bg-mainyellow before:dark:bg-mainGreen before:w-10 before:h-2 relative">
                 I'm Mahziyar Gilanpour.
               </h1>
-              <p>web Developer</p>
+              <p className="dark:text-[#666]">web Developer</p>
             </div>
-            <div className="mt-6">
+            <div className="mt-6 dark:text-[#666]">
               I'm a Interested in Web Programming and Good Familiarity with
               Reactjs and doing all Kinds of Exercises such as Online store or
               personal site or even professional panel for the companies , I am
@@ -54,11 +54,11 @@ const Home = ({ setSelectedPage }) => {
             <div>
               <div
                 onClick={() => setSelectedPage("about")}
-                className="inline-block border mt-8 border-mainyellow rounded-full cursor-pointer hover:bg-mainyellow transition-all duration-200"
+                className="inline-block border mt-8 border-mainyellow dark:border-mainGreen rounded-full  cursor-pointer hover:bg-mainyellow hover:dark:bg-mainGreen transition-all duration-200"
               >
                 <div className="flex items-center">
-                  <p className="uppercase pl-6 text-sm p-4">more about me</p>
-                  <div className="bg-mainyellow p-4 rounded-full">
+                  <p className="uppercase pl-6 text-sm p-4 dark:text-[#666] font-bold hover:dark:text-white">more about me</p>
+                  <div className="bg-mainyellow dark:bg-mainGreen p-4 rounded-full">
                     {aboutSvg}
                   </div>
                 </div>
