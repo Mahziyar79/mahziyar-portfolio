@@ -6,7 +6,7 @@ const HeaderNav = ({ selectedPage, setSelectedPage }) => {
         <ul className="flex flex-col gap-y-6">
           <li
             className={`transition-all duration-200 p-3 rounded-full cursor-pointer hover:bg-mainyellow ${
-              selectedPage === "home" ? "bg-mainyellow" : "bg-[#2b2b2b]"
+              selectedPage === "home" ? "bg-mainyellow dark:bg-mainGreen" : "bg-[#2b2b2b] dark:bg-[#7e7e7e]"
             }`}
             onClick={() => setSelectedPage("home")}
           >
@@ -30,7 +30,7 @@ const HeaderNav = ({ selectedPage, setSelectedPage }) => {
           </li>
           <li
             className={`transition-all duration-200 p-3 rounded-full cursor-pointer hover:bg-mainyellow ${
-              selectedPage === "about" ? "bg-mainyellow" : "bg-[#2b2b2b]"
+              selectedPage === "about" ? "bg-mainyellow dark:bg-mainGreen" : "bg-[#2b2b2b] dark:bg-[#7e7e7e]"
             }`}
             onClick={() => setSelectedPage("about")}
           >
@@ -51,7 +51,7 @@ const HeaderNav = ({ selectedPage, setSelectedPage }) => {
           </li>
           <li
             className={`transition-all duration-200 p-3 rounded-full cursor-pointer hover:bg-mainyellow ${
-              selectedPage === "contact" ? "bg-mainyellow" : "bg-[#2b2b2b]"
+              selectedPage === "contact" ? "bg-mainyellow dark:bg-mainGreen" : "bg-[#2b2b2b] dark:bg-[#7e7e7e]"
             }`}
             onClick={() => setSelectedPage("contact")}
           >

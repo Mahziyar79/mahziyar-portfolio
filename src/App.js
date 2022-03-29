@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className={`${darkmode ? "dark" : ""}`}>
-      <div className="w-full min-h-screen bg-mainblack dark:bg-[#eee]">
+      <div className="w-full min-h-screen bg-mainblack dark:bg-[#f5f5f5]">
         <AnimatedCursor
           innerSize={8}
           outerSize={40}
@@ -34,9 +34,9 @@ function App() {
         {/* Home Page */}
         {selectedPage === "home" && <Home setSelectedPage={setSelectedPage} />}
         {/* About Page */}
-        {selectedPage === "about" && <About />}
+        {selectedPage === "about" && <About darkmode={darkmode}/>}
         {/* Contact Page */}
-        {selectedPage === "contact" && <Contact />}
+        {selectedPage === "contact" && <Contact darkmode={darkmode}/>}
       </div>
     </div>
   );

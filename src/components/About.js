@@ -21,14 +21,14 @@ const downloadSvg = (
   </svg>
 );
 
-const About = () => {
+const About = ({darkmode}) => {
   return (
     <div className="px-5 max-w-7xl m-auto">
       <div className="py-16 text-[35px] font-bold uppercase lg:text-center lg:text-[55px] relative">
-        <p className="text-white">
-          About <span className="text-mainyellow">ME</span>
+        <p className="text-white dark:text-[#606161]">
+          About <span className="text-mainyellow dark:text-mainGreen">ME</span>
         </p>
-        <p className="hidden lg:block absolute text-[110px] top-1 right-[32%] text-[hsla(0,0%,100%,.07)]">
+        <p className="hidden lg:block absolute text-[110px] top-1 right-[32%] text-[hsla(0,0%,100%,.07)] dark:text-[rgba(30,37,48,.07)]">
           RESUME
         </p>
       </div>
@@ -38,7 +38,7 @@ const About = () => {
           src={mainImage}
           alt="mainImage"
         />
-        <div className="flex flex-col lg:flex-row items-center">
+        <div className="flex flex-col lg:flex-row items-center dark:text-[#505050]">
           <div className="lg:w-[50%]">
             <h2 className="text-[28px] uppercase mb-7">personal infos</h2>
             <div>
@@ -95,40 +95,40 @@ const About = () => {
             <div className="grid grid-cols-2 grid-rows-2 gap-4 uppercase mt-5">
               <div className="col-span-1">
                 <div className="p-5 border border-[#252525] rounded-md ">
-                  <h3 className="font-bold relative text-[50px] text-mainyellow after:content-['+'] after:absolute after:-top-2 inline-block after:left-[100%]">
+                  <h3 className="font-bold relative text-[50px] text-mainyellow dark:text-mainGreen after:content-['+'] after:absolute after:-top-2 inline-block after:left-[100%]">
                     1
                   </h3>
-                  <p className="pl-10 relative before:content-[''] before:absolute before:top-[50%] before:left-[0%] before:rounded-lg before:bg-mainyellow before:w-5 before:h-1">
+                  <p className="pl-10 relative before:content-[''] before:absolute before:top-[50%] before:left-[0%] before:rounded-lg dark:text-[#666] before:bg-mainyellow dark:before:bg-mainGreen before:w-5 before:h-1">
                     years of <span className="block">experience</span>
                   </p>
                 </div>
               </div>
               <div className="col-span-1">
                 <div className="p-5 border border-[#252525] rounded-md ">
-                  <h3 className="font-bold inline-block relative text-[50px] text-mainyellow after:content-['+'] after:absolute after:-top-2 after:left-[100%]">
+                  <h3 className="font-bold inline-block relative text-[50px] text-mainyellow dark:text-mainGreen after:content-['+'] after:absolute after:-top-2 after:left-[100%]">
                     14
                   </h3>
-                  <p className="pl-10 relative before:content-[''] before:absolute before:top-[50%] before:left-[0%] before:rounded-lg before:bg-mainyellow before:w-5 before:h-1">
+                  <p className="pl-10 relative before:content-[''] before:absolute before:top-[50%] before:left-[0%] before:rounded-lg dark:text-[#666] before:bg-mainyellow dark:before:bg-mainGreen before:w-5 before:h-1">
                     completed <span className="block">projects</span>
                   </p>
                 </div>
               </div>
               <div className="col-span-1">
                 <div className="p-5 border border-[#252525] rounded-md ">
-                  <h3 className="font-bold relative text-[50px] text-mainyellow after:content-['+'] after:absolute after:-top-2 inline-block after:left-[100%]">
+                  <h3 className="font-bold relative text-[50px] text-mainyellow dark:text-mainGreen after:content-['+'] after:absolute after:-top-2 inline-block after:left-[100%]">
                     8
                   </h3>
-                  <p className="pl-10 relative before:content-[''] before:absolute before:top-[50%] before:left-[0%] before:rounded-lg before:bg-mainyellow before:w-5 before:h-1">
+                  <p className="pl-10 relative before:content-[''] before:absolute before:top-[50%] before:left-[0%] before:rounded-lg dark:text-[#666] before:bg-mainyellow dark:before:bg-mainGreen before:w-5 before:h-1">
                     Happy <span className="block">customers</span>
                   </p>
                 </div>
               </div>
               <div className="col-span-1">
                 <div className="p-5 border border-[#252525] rounded-md ">
-                  <h3 className="font-bold relative text-[50px] text-mainyellow after:content-['+'] after:absolute after:-top-2 inline-block after:left-[100%]">
+                  <h3 className="font-bold relative text-[50px] text-mainyellow dark:text-mainGreen after:content-['+'] after:absolute after:-top-2 inline-block after:left-[100%]">
                     10
                   </h3>
-                  <p className="pl-10 relative before:content-[''] before:absolute before:top-[50%] before:left-[0%] before:rounded-lg before:bg-mainyellow before:w-5 before:h-1">
+                  <p className="pl-10 relative before:content-[''] before:absolute before:top-[50%] before:left-[0%] before:rounded-lg dark:text-[#666] before:bg-mainyellow dark:before:bg-mainGreen before:w-5 before:h-1">
                     Website <span className="block">Design</span>
                   </p>
                 </div>
@@ -137,9 +137,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <PieChart />
+      <PieChart darkmode={darkmode}/>
       <div>
-        <p className="pb-16 pt-28 text-white text-[35px] font-bold uppercase lg:text-center relative">
+        <p className="pb-16 pt-28 text-white text-[35px] font-bold uppercase lg:text-center relative dark:text-[#666]">
           Experience & Education
         </p>
         <TimeLine />

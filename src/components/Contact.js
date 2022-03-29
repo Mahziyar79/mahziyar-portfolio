@@ -1,34 +1,35 @@
-const Contact = () => {
+const Contact = ({darkmode}) => {
   return (
     <div className="px-5 max-w-7xl m-auto">
       <div className="py-16 text-[35px] font-bold uppercase lg:text-center lg:text-[55px] relative">
-        <p className="text-white">
-          GET IN <span className="text-mainyellow">TOUCH</span>
+        <p className="text-white dark:text-[#666]">
+          GET IN <span className="text-mainyellow dark:text-mainGreen">TOUCH</span>
         </p>
-        <p className="hidden lg:block absolute text-[110px] top-1 right-[27%] text-[hsla(0,0%,100%,.07)]">
+        <p className="hidden lg:block absolute text-[110px] top-1 right-[27%] text-[hsla(0,0%,100%,.07)] dark:text-[rgba(30,37,48,.07)]">
           CONTACT
         </p>
       </div>
       <div className="flex flex-col md:flex-row">
         <div className="md:w-[40%] w-full text-white flex flex-col gap-y-5 mb-10 md:mb-0">
-          <h3 className="text-3xl font-bold">Tell Everything you Want!</h3>
-          <p className="font-light mr-20">
-          To start cooperation or to contact me, you can apply through the following addresses
+          <h3 className="text-3xl font-bold dark:text-[#666]">Tell Everything you Want!</h3>
+          <p className="font-light mr-20 dark:text-[#666]">
+            To start cooperation or to contact me, you can apply through the
+            following addresses
           </p>
-          <div className="flex flex-col gap-y-6">
+          <div className="flex flex-col gap-y-6 dark:text-[#666]">
             <div className="flex gap-x-2">
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-11 w-11"
-                  fill="#ffb400"
+                  className="h-11 w-11"
+                  fill={`${darkmode ? "#72b626" : "#ffb400"}`}
                   viewBox="0 0 24 24"
                   stroke="#333"
-                  stroke-width="1"
+                  strokeWidth="1"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"
                   />
                 </svg>
@@ -42,15 +43,15 @@ const Contact = () => {
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-11 w-11"
-                  fill="#ffb400"
+                  className="h-11 w-11"
+                  fill={`${darkmode ? "#72b626" : "#ffb400"}`}
                   viewBox="0 0 24 24"
                   stroke="#333"
-                  stroke-width="1"
+                  strokeWidth="1"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
@@ -66,7 +67,7 @@ const Contact = () => {
               href="https://github.com/Mahziyar79"
               target="_blank"
               rel="noreferrer"
-              className="bg-btnBack p-2 hover:bg-mainyellow rounded-full"
+              className="bg-btnBack dark:bg-[#72b626] p-2 hover:bg-mainyellow rounded-full"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +83,7 @@ const Contact = () => {
               href="https://www.instagram.com/mahziyar.79/"
               target="_blank"
               rel="noreferrer"
-              className="bg-btnBack p-2 hover:bg-mainyellow rounded-full"
+              className="bg-btnBack dark:bg-[#72b626] p-2 hover:bg-mainyellow rounded-full"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +105,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/mahziyar-gilanpour/"
               target="_blank"
               rel="noreferrer"
-              className="bg-btnBack p-2 hover:bg-mainyellow rounded-full"
+              className="bg-btnBack dark:bg-[#72b626] p-2 hover:bg-mainyellow rounded-full"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -122,40 +123,40 @@ const Contact = () => {
           <form className="flex flex-wrap gap-5">
             <div className="flex flex-col md:flex-row justify-between w-full gap-x-2 gap-y-3 md:gap-y-0">
               <input
-                className="w-full flex-1 bg-[#252525] border border-[#111] py-3 px-7 rounded-full text-white outline-none"
+                className="w-full flex-1 bg-[#252525] dark:bg-[#eee] dark:border-[#ccc] border border-[#111] py-3 px-7 rounded-full text-white dark:text-[#333] outline-none"
                 placeholder="YOUR NAME"
               />
               <input
-                className="w-full flex-1 bg-[#252525] border border-[#111] py-3 px-7 rounded-full text-white outline-none"
+                className="w-full flex-1 bg-[#252525] dark:bg-[#eee] dark:border-[#ccc] border border-[#111] py-3 px-7 rounded-full text-white dark:text-[#333] outline-none"
                 placeholder="YOUR EMAIL"
               />
             </div>
             <input
-              className="w-full bg-[#252525] border border-[#111] py-3 px-7 rounded-full text-white outline-none"
+              className="w-full bg-[#252525] dark:bg-[#eee] dark:border-[#ccc] border border-[#111] py-3 px-7 rounded-full text-white dark:text-[#333] outline-none"
               placeholder="YOUR SUBJECT"
             />
             <textarea
-              className="w-full bg-[#252525] border border-[#111] py-3 px-7 rounded-[30px] text-white outline-none"
+              className="w-full bg-[#252525] dark:bg-[#eee] dark:border-[#ccc] border border-[#111] py-3 px-7 rounded-[30px] text-white dark:text-[#333] outline-none"
               placeholder="YOUR MESSAGE"
               rows="5"
             ></textarea>
-            <div className="inline-block border mt-3 border-mainyellow rounded-full cursor-pointer hover:bg-mainyellow transition-all duration-200">
+            <div className="inline-block border mt-3 border-mainyellow dark:border-mainGreen rounded-full cursor-pointer hover:bg-mainyellow dark:hover:bg-mainGreen transition-all duration-200">
               <div className="flex items-center">
-                <button className="uppercase pl-6 text-sm p-4 text-white">
+                <button className="uppercase pl-6 text-sm p-4 text-white dark:text-[#666] hover:dark:text-white">
                   send message
                 </button>
-                <div className="bg-mainyellow p-4 rounded-full">
+                <div className="bg-mainyellow dark:bg-[#72b626] p-4 rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="#fff"
-                    stroke-width="2"
+                    strokeWidth="2"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
                     />
                   </svg>
