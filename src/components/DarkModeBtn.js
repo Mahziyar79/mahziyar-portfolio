@@ -1,10 +1,10 @@
 const DarkModeBtn = ({darkmode,setDarkMode}) => {
 
   return (
-    <div className="text-white absolute right-8 top-[2%] z-40">
+    <div className="text-white fixed right-8 top-[2%] z-40">
       <ul className="flex flex-col gap-y-6">
-        <li className="bg-btnBack p-3 rounded-full cursor-pointer hover:bg-mainyellow hover:dark:bg-mainGreen" onClick={()=>setDarkMode(!darkmode)}>
-          {!darkmode ? (
+        <li className="bg-[#3d3d3d] p-3 rounded-full cursor-pointer hover:dark:bg-mainyellow hover:bg-mainGreen" onClick={()=>setDarkMode(!darkmode)}>
+          {darkmode ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"

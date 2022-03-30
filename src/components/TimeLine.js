@@ -4,7 +4,7 @@ const TimeLine = () => {
       <div className="flex flex-col w-full md:w-1/2 gap-y-10">
         <div className="flex gap-x-3 ">
           <div>
-            <div className="bg-mainyellow dark:bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] before:rounded-lg before:bg-mainyellow dark:before:bg-mainGreen before:w-[2px] before:h-24">
+            <div className="dark:bg-mainyellow bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] before:rounded-lg dark:before:bg-mainyellow before:bg-mainGreen before:w-[2px] before:h-24">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -23,13 +23,13 @@ const TimeLine = () => {
           </div>
           <div className="flex flex-col">
             <span>
-              <span className="bg-[#252525] text-gray-300 rounded-full text-sm px-3 py-1">
+              <span className="bg-[#eee] dark:bg-[#363636] dark:text-gray-300 text-gray-500 rounded-full text-sm px-3 py-1">
                 2020 - 2021
               </span>
             </span>
-            <h3 className="text-[20px] text-white mt-3 dark:text-[#313131]">React Developer</h3>
-            <h3 className="text-[15px] text-gray-500 mb-3">Sarv Finance</h3>
-            <p className="text-white text-sm font-light dark:text-[#313131]">
+            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">React Developer</h3>
+            <h3 className="text-[15px] text-gray-500 dark:text-gray-300 mb-3">Sarv Finance</h3>
+            <p className="dark:text-white text-sm font-light text-[#313131]">
               I Developed a Professional Panel to Connect and Get Data from
               Binance and Control they Robot. also I Worked with Websocket.
             </p>
@@ -37,7 +37,7 @@ const TimeLine = () => {
         </div>
         <div className="flex gap-x-3">
           <div>
-            <div className="bg-mainyellow dark:bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] dark:before:bg-mainGreen before:rounded-lg before:bg-mainyellow before:w-[2px] before:h-24">
+            <div className="dark:bg-mainyellow bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] before:bg-mainGreen before:rounded-lg dark:before:bg-mainyellow before:w-[2px] before:h-24">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -56,15 +56,15 @@ const TimeLine = () => {
           </div>
           <div className="flex flex-col ">
             <span>
-              <span className="bg-[#252525] text-gray-300 rounded-full text-sm px-3 py-1">
+              <span className="bg-[#eee] dark:bg-[#363636] dark:text-gray-300 text-gray-500 rounded-full text-sm px-3 py-1">
                 2020 - Present
               </span>
             </span>
-            <h3 className="text-[20px] text-white mt-3 dark:text-[#313131]">Web Designer</h3>
-            <h3 className="text-[15px] text-gray-500 mb-3">
+            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">Web Designer</h3>
+            <h3 className="text-[15px] text-gray-500 dark:text-gray-300 mb-3">
               CMC Digital Marketing Agency
             </h3>
-            <p className="text-white text-sm font-light dark:text-[#313131]">
+            <p className="dark:text-white text-sm font-light text-[#313131]">
               I am WordPress Developer , Design and Improve our Website is My
               Main Goal in Company
             </p>
@@ -72,7 +72,7 @@ const TimeLine = () => {
         </div>
         <div className="flex gap-x-3">
           <div>
-            <div className="bg-mainyellow dark:bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] dark:before:bg-mainGreen before:rounded-lg before:bg-mainyellow before:w-[2px] before:h-24">
+            <div className="dark:bg-mainyellow bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] before:bg-mainGreen before:rounded-lg dark:before:bg-mainyellow before:w-[2px] before:h-24">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -91,13 +91,13 @@ const TimeLine = () => {
           </div>
           <div className="flex flex-col">
             <span>
-              <span className="bg-[#252525] text-gray-300 rounded-full text-sm px-3 py-1">
+              <span className="bg-[#eee] dark:bg-[#363636] dark:text-gray-300 text-gray-500 rounded-full text-sm px-3 py-1">
                 2020 - 2021
               </span>
             </span>
-            <h3 className="text-[20px] text-white mt-3 dark:text-[#313131]">Web Designer</h3>
-            <h3 className="text-[15px] text-gray-500 mb-3">Marketgram</h3>
-            <span className="text-white text-sm font-light dark:text-[#313131]">
+            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">Web Designer</h3>
+            <h3 className="text-[15px] text-gray-500 dark:text-gray-300 mb-3">Marketgram</h3>
+            <span className="dark:text-white text-sm font-light text-[#313131]">
               - WordPress Developer
               <p>- Project Coordinator</p>
             </span>
@@ -107,7 +107,7 @@ const TimeLine = () => {
       <div className="flex flex-col w-full md:w-1/2 gap-y-10 mt-10 md:mt-0 md:ml-12 mb-20">
         <div className="flex gap-x-3 ">
           <div>
-            <div className="bg-mainyellow dark:bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] dark:before:bg-mainGreen before:rounded-lg before:bg-mainyellow before:w-[2px] before:h-20">
+            <div className="dark:bg-mainyellow bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] before:bg-mainGreen before:rounded-lg dark:before:bg-mainyellow before:w-[2px] before:h-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -126,19 +126,19 @@ const TimeLine = () => {
           </div>
           <div className="flex flex-col gap-y-3">
             <span>
-              <span className="bg-[#252525] text-gray-300 rounded-full text-sm px-3 py-1">
+              <span className="bg-[#eee] dark:bg-[#363636] dark:text-gray-300 text-gray-500 rounded-full text-sm px-3 py-1">
                 2019 - Present
               </span>
             </span>
-            <h3 className="text-[20px] text-white dark:text-[#313131]">Managment</h3>
-            <p className="text-white text-sm font-light dark:text-[#313131]">
+            <h3 className="text-[20px] dark:text-white text-[#313131]">Managment</h3>
+            <p className="dark:text-white text-sm font-light text-[#313131]">
               I Study Managment in Shahid Beheshti university
             </p>
           </div>
         </div>
         <div className="flex gap-x-3">
           <div>
-            <div className="bg-mainyellow dark:bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] dark:before:bg-mainGreen before:rounded-lg before:bg-mainyellow before:w-[2px] before:h-20">
+            <div className="dark:bg-mainyellow bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] before:bg-mainGreen before:rounded-lg dark:before:bg-mainyellow before:w-[2px] before:h-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -157,12 +157,12 @@ const TimeLine = () => {
           </div>
           <div className="flex flex-col gap-y-3">
             <span>
-              <span className="bg-[#252525] text-gray-300 rounded-full text-sm px-3 py-1">
+              <span className="bg-[#eee] dark:bg-[#363636] dark:text-gray-300 text-gray-500 rounded-full text-sm px-3 py-1">
                 2016 - 2019
               </span>
             </span>
-            <h3 className="text-[20px] text-white dark:text-[#313131]">Mofid High School</h3>
-            <p className="text-white text-sm font-light dark:text-[#313131]">
+            <h3 className="text-[20px] dark:text-white text-[#313131]">Mofid High School</h3>
+            <p className="dark:text-white text-sm font-light text-[#313131]">
               I Studied 3 Years at Mofid High School
             </p>
           </div>

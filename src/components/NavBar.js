@@ -2,15 +2,15 @@ const HeaderNav = ({ selectedPage, setSelectedPage }) => {
   return (
     <>
     {/* lg Nav */}
-      <div className="text-white absolute lg:right-8 lg:top-[45%] lg:translate-y-[-50%] z-20 lg:block hidden">
-        <ul className="flex flex-col gap-y-6">
+      <div className="text-white fixed lg:right-8 lg:top-[45%] lg:translate-y-[-50%] z-20 lg:block hidden">
+        <ul className="flex flex-col gap-y-6 ">
           <li
-            className={`transition-all duration-200 p-3 rounded-full cursor-pointer hover:bg-mainyellow ${
-              selectedPage === "home" ? "bg-mainyellow dark:bg-mainGreen" : "bg-[#2b2b2b] dark:bg-[#7e7e7e]"
+            className={`transition-all duration-200 p-3 rounded-full cursor-pointer hover:bg-mainGreen dark:hover:bg-mainyellow ${
+              selectedPage === "home" ? "dark:bg-mainyellow bg-mainGreen" : "dark:bg-[#3d3d3d] bg-[#7e7e7e]"
             }`}
             onClick={() => setSelectedPage("home")}
           >
-            <div className="flex gap-x-3">
+            <div className="flex gap-x-3 ">
               <p className="hidden">Home</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -29,8 +29,8 @@ const HeaderNav = ({ selectedPage, setSelectedPage }) => {
             </div>
           </li>
           <li
-            className={`transition-all duration-200 p-3 rounded-full cursor-pointer hover:bg-mainyellow ${
-              selectedPage === "about" ? "bg-mainyellow dark:bg-mainGreen" : "bg-[#2b2b2b] dark:bg-[#7e7e7e]"
+            className={`transition-all duration-200 p-3 rounded-full cursor-pointer hover:bg-mainGreen dark:hover:bg-mainyellow ${
+              selectedPage === "about" ? "dark:bg-mainyellow bg-mainGreen" : "dark:bg-[#3d3d3d] bg-[#7e7e7e]"
             }`}
             onClick={() => setSelectedPage("about")}
           >
@@ -50,8 +50,8 @@ const HeaderNav = ({ selectedPage, setSelectedPage }) => {
             </svg>
           </li>
           <li
-            className={`transition-all duration-200 p-3 rounded-full cursor-pointer hover:bg-mainyellow ${
-              selectedPage === "contact" ? "bg-mainyellow dark:bg-mainGreen" : "bg-[#2b2b2b] dark:bg-[#7e7e7e]"
+            className={`transition-all duration-200 p-3 rounded-full cursor-pointer hover:bg-mainGreen dark:hover:bg-mainyellow ${
+              selectedPage === "contact" ? "dark:bg-mainyellow bg-mainGreen" : "dark:bg-[#3d3d3d] bg-[#7e7e7e]"
             }`}
             onClick={() => setSelectedPage("contact")}
           >

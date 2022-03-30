@@ -8,11 +8,11 @@ import Contact from "./components/Contact";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
-  const [darkmode, setDarkMode] = useState("");
+  const [darkmode, setDarkMode] = useState("true");
 
   return (
     <div className={`${darkmode ? "dark" : ""}`}>
-      <div className="w-full min-h-screen bg-mainblack dark:bg-[#f5f5f5]">
+      <div className="w-full min-h-screen dark:bg-mainblack dark:bg-[url('./assets/images/bg.png')] bg-[#f5f5f5]">
         <AnimatedCursor
           innerSize={8}
           outerSize={40}
