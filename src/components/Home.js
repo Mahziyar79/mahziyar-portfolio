@@ -54,7 +54,7 @@ const Home = ({ setSelectedPage }) => {
             <div>
               <div
                 onClick={() => setSelectedPage("about")}
-                className="inline-block border mt-8 dark:border-mainyellow border-mainGreen rounded-full  cursor-pointer hover:dark:bg-mainyellow hover:bg-mainGreen transition-all duration-200"
+                className="inline-block border my-8 dark:border-mainyellow border-mainGreen rounded-full  cursor-pointer hover:dark:bg-mainyellow hover:bg-mainGreen transition-all duration-200"
               >
                 <div className="flex items-center">
                   <p className="uppercase pl-6 text-sm p-4 dark:text-white text-[#666] font-bold hover:text-white">more about me</p>
