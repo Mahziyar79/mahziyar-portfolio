@@ -29,7 +29,7 @@ const Home = ({ setSelectedPage }) => {
             className="h-[calc(100vh-80px)] shadow-lg rounded-3xl z-10 hidden lg:flex object-cover"
           />
         </div>
-        <div className="lg:w-[60%] p-6 w-[100%] h-screen text-white z-20 flex flex-wrap items-center">
+        <div className="lg:w-[60%] p-6 w-[100%] min-h-screen text-white z-20 flex flex-wrap items-center">
           <div className="xl:ml-28 lg:ml-12 lg:w-3/4 text-center lg:text-left">
             <div>
               <img
@@ -44,7 +44,7 @@ const Home = ({ setSelectedPage }) => {
               </h1>
               <p className="dark:text-[#bebebe] text-[#666]">web Developer</p>
             </div>
-            <div className="mt-6 dark:text-[#bebebe] text-[#666]">
+            <div className="mt-4 dark:text-[#bebebe] text-[#666]">
               I'm a Interested in Web Programming and Good Familiarity with
               Reactjs and doing all Kinds of Exercises such as Online store or
               personal site or even professional panel for the companies , I am
@@ -54,7 +54,7 @@ const Home = ({ setSelectedPage }) => {
             <div>
               <div
                 onClick={() => setSelectedPage("about")}
-                className="inline-block border my-8 dark:border-mainyellow border-mainGreen rounded-full  cursor-pointer hover:dark:bg-mainyellow hover:bg-mainGreen transition-all duration-200"
+                className="mb-24 inline-block border mt-6 dark:border-mainyellow border-mainGreen rounded-full  cursor-pointer hover:dark:bg-mainyellow hover:bg-mainGreen transition-all duration-200"
               >
                 <div className="flex items-center">
                   <p className="uppercase pl-6 text-sm p-4 dark:text-white text-[#666] font-bold hover:text-white">more about me</p>
