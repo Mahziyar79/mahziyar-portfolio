@@ -45,11 +45,11 @@ const Home = ({ setSelectedPage }) => {
               <p className="dark:text-[#bebebe] text-[#666]">web Developer</p>
             </div>
             <div className="mt-4 dark:text-[#bebebe] text-[#666]">
-              I'm a Interested in Web Programming and Good Familiarity with
-              Reactjs and doing all Kinds of Exercises such as Online store or
-              personal site or even professional panel for the companies , I am
-              passionate about building excellent software that improves the
-              lives of those around me.
+              I'm a Interested in Web Programming and Very Good Familiarity with
+              Reactjs & Nextjs & Tailwindcss and doing all Kinds of Exercises
+              such as Online store or personal site or even professional panel
+              for the companies , I am passionate about building excellent
+              software that improves the lives of those around me.
             </div>
             <div>
               <div
@@ -57,7 +57,9 @@ const Home = ({ setSelectedPage }) => {
                 className="mb-24 inline-block border mt-6 dark:border-mainyellow border-mainGreen rounded-full  cursor-pointer hover:dark:bg-mainyellow hover:bg-mainGreen transition-all duration-200"
               >
                 <div className="flex items-center">
-                  <p className="uppercase pl-6 text-sm p-4 dark:text-white text-[#666] font-bold hover:text-white">more about me</p>
+                  <p className="uppercase pl-6 text-sm p-4 dark:text-white text-[#666] font-bold hover:text-white">
+                    more about me
+                  </p>
                   <div className="dark:bg-mainyellow bg-mainGreen p-4 rounded-full">
                     {aboutSvg}
                   </div>

@@ -14,11 +14,11 @@ const PersonalInfos = () => {
           </li>
           <li className="flex flex-col xl:flex-row gap-x-2 w-[50%]">
             <p className="dark:text-gray-400 text-gray-600">Age : </p>
-            <p>21</p>
+            <p>22</p>
           </li>
           <li className="flex flex-col xl:flex-row gap-x-2 w-[50%]">
             <p className="dark:text-gray-400 text-gray-600">Email : </p>
-            <a href="mailto:mgillanpour79@gmail.com" className="lg:text-base text-[13px]">
+            <a href="mailto:mgillanpour79@gmail.com" className="lg:text-base text-[13px] cursor-pointer">
               mgillanpour79@gmail.com
             </a>
           </li>
@@ -32,7 +32,7 @@ const PersonalInfos = () => {
               href="https://github.com/Mahziyar79"
               target={"_blank"}
               rel="noreferrer"
-              className="text-sm lg:text-base"
+              className="text-sm lg:text-base cursor-pointer"
             >
               github.com/Mahziyar79
             </a>
@@ -43,7 +43,7 @@ const PersonalInfos = () => {
             <p className="dark:text-gray-400 text-gray-600">City : </p>
             <p>Tehran</p>
           </li>
-          <li className="flex flex-col xl:flex-row gap-x-2 w-[50%]">
+          <li className="flex flex-col xl:flex-row gap-x-2 w-[50%] cursor-pointer">
             <p className="dark:text-gray-400 text-gray-600">Phone : </p>
             <a href="tel:09385818976">09385818976</a>
           </li>

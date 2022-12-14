@@ -95,8 +95,8 @@ const PieChart = ({darkmode}) => {
           <div className="lg:w-[25%] md:w-1/3 w-1/2 flex flex-col items-center">
             <div className="md:w-48 md:h-48 w-32 h-32">
               <CircularProgressbar
-                value={80}
-                text={`${80}%`}
+                value={90}
+                text={`${90}%`}
                 background
                 backgroundPadding={6}
                 styles={buildStyles({
@@ -129,8 +129,8 @@ const PieChart = ({darkmode}) => {
           <div className="lg:w-[25%] md:w-1/3 w-1/2 flex flex-col items-center">
             <div className="md:w-48 md:h-48 w-32 h-32">
               <CircularProgressbar
-                value={60}
-                text={`${60}%`}
+                value={70}
+                text={`${70}%`}
                 background
                 backgroundPadding={6}
                 styles={buildStyles({
@@ -141,7 +141,7 @@ const PieChart = ({darkmode}) => {
                 })}
               />
             </div>
-            <p className="text-btnBack text-center text-xl mt-4 dark:text-[#ffffff]">Sass</p>
+            <p className="text-btnBack text-center text-xl mt-4 dark:text-[#ffffff]">Next Js</p>
           </div>
         </div>
       </div>

@@ -24,11 +24,53 @@ const TimeLine = () => {
           <div className="flex flex-col">
             <span>
               <span className="bg-[#eee] dark:bg-[#363636] dark:text-gray-300 text-gray-500 rounded-full text-sm px-3 py-1">
+                2021 - 2022
+              </span>
+            </span>
+            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">
+              React Developer
+            </h3>
+            <h3 className="text-[15px] text-gray-500 dark:text-gray-300 mb-3">
+              RetinaTech
+            </h3>
+            <p className="dark:text-white text-sm font-light text-[#313131]">
+              I Developed a Professional Panel to Show Online Camera Videos with
+              Some Feature Like Online ScreenShot , Recording Video ,... for
+              Irancell Company .
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-x-3 ">
+          <div>
+            <div className="dark:bg-mainyellow bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] before:rounded-lg dark:before:bg-mainyellow before:bg-mainGreen before:w-[2px] before:h-24">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#fff"
+                strokeWidth="2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="flex flex-col">
+            <span>
+              <span className="bg-[#eee] dark:bg-[#363636] dark:text-gray-300 text-gray-500 rounded-full text-sm px-3 py-1">
                 2020 - 2021
               </span>
             </span>
-            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">React Developer</h3>
-            <h3 className="text-[15px] text-gray-500 dark:text-gray-300 mb-3">Sarv Finance</h3>
+            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">
+              React Developer
+            </h3>
+            <h3 className="text-[15px] text-gray-500 dark:text-gray-300 mb-3">
+              Sarv Finance
+            </h3>
             <p className="dark:text-white text-sm font-light text-[#313131]">
               I Developed a Professional Panel to Connect and Get Data from
               Binance and Control they Robot. also I Worked with Websocket.
@@ -60,7 +102,9 @@ const TimeLine = () => {
                 2020 - Present
               </span>
             </span>
-            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">Web Designer</h3>
+            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">
+              Web Designer
+            </h3>
             <h3 className="text-[15px] text-gray-500 dark:text-gray-300 mb-3">
               CMC Digital Marketing Agency
             </h3>
@@ -95,8 +139,12 @@ const TimeLine = () => {
                 2020 - 2021
               </span>
             </span>
-            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">Web Designer</h3>
-            <h3 className="text-[15px] text-gray-500 dark:text-gray-300 mb-3">Marketgram</h3>
+            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">
+              Web Designer
+            </h3>
+            <h3 className="text-[15px] text-gray-500 dark:text-gray-300 mb-3">
+              Marketgram
+            </h3>
             <span className="dark:text-white text-sm font-light text-[#313131]">
               - WordPress Developer
               <p>- Project Coordinator</p>
@@ -130,7 +178,9 @@ const TimeLine = () => {
                 2019 - Present
               </span>
             </span>
-            <h3 className="text-[20px] dark:text-white text-[#313131]">Managment</h3>
+            <h3 className="text-[20px] dark:text-white text-[#313131]">
+              Managment
+            </h3>
             <p className="dark:text-white text-sm font-light text-[#313131]">
               I Study Managment in Shahid Beheshti university
             </p>
@@ -161,7 +211,9 @@ const TimeLine = () => {
                 2016 - 2019
               </span>
             </span>
-            <h3 className="text-[20px] dark:text-white text-[#313131]">Mofid High School</h3>
+            <h3 className="text-[20px] dark:text-white text-[#313131]">
+              Mofid High School
+            </h3>
             <p className="dark:text-white text-sm font-light text-[#313131]">
               I Studied 3 Years at Mofid High School
             </p>
