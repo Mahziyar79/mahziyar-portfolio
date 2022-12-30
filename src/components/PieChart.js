@@ -10,8 +10,8 @@ const PieChart = ({darkmode}) => {
           <div className="lg:w-[25%] md:w-1/3 w-1/2 flex flex-col items-center">
             <div className="md:w-48 md:h-48 w-32 h-32">
               <CircularProgressbar
-                value={85}
-                text={`${85}%`}
+                value={95}
+                text={`${95}%`}
                 background
                 backgroundPadding={6}
                 styles={buildStyles({
@@ -27,8 +27,8 @@ const PieChart = ({darkmode}) => {
           <div className="lg:w-[25%] md:w-1/3 w-1/2 flex flex-col items-center">
             <div className="md:w-48 md:h-48 w-32 h-32">
               <CircularProgressbar
-                value={85}
-                text={`${85}%`}
+                value={95}
+                text={`${95}%`}
                 background
                 backgroundPadding={6}
                 styles={buildStyles({
@@ -44,8 +44,8 @@ const PieChart = ({darkmode}) => {
           <div className="lg:w-[25%] md:w-1/3 w-1/2 flex flex-col items-center">
             <div className="md:w-48 md:h-48 w-32 h-32">
               <CircularProgressbar
-                value={75}
-                text={`${75}%`}
+                value={80}
+                text={`${80}%`}
                 background
                 backgroundPadding={6}
                 styles={buildStyles({
@@ -78,8 +78,8 @@ const PieChart = ({darkmode}) => {
           <div className="lg:w-[25%] md:w-1/3 w-1/2 flex flex-col items-center">
             <div className="md:w-48 md:h-48 w-32 h-32">
               <CircularProgressbar
-                value={90}
-                text={`${90}%`}
+                value={95}
+                text={`${95}%`}
                 background
                 backgroundPadding={6}
                 styles={buildStyles({
