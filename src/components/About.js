@@ -1,7 +1,7 @@
 import mainImage from "../assets/images/image.jpg";
 import Button from "../common/Button";
 import resume from "../assets/docs/Resume.pdf";
-import TimeLine from './TimeLine'
+import TimeLine from "./TimeLine";
 import PieChart from "./PieChart";
 import PersonalInfos from "./PersonalInfos";
 import InfoNumbers from "./InfoNumbers";
@@ -23,7 +23,7 @@ const downloadSvg = (
   </svg>
 );
 
-const About = ({darkmode}) => {
+const About = ({ darkmode }) => {
   return (
     <div className="px-5 max-w-7xl m-auto">
       <div className="pt-16 pb-8 text-[35px] font-bold uppercase lg:text-center lg:text-[55px] relative">
@@ -42,7 +42,7 @@ const About = ({darkmode}) => {
         />
         <div className="flex flex-col lg:flex-row items-center text-[#505050] dark:text-white">
           <div className="lg:w-[50%]">
-           <PersonalInfos />
+            <PersonalInfos />
             <a href={resume} download alt="download resume">
               <Button title="download cv" svg={downloadSvg} />
             </a>
@@ -52,7 +52,7 @@ const About = ({darkmode}) => {
           </div>
         </div>
       </div>
-      <PieChart darkmode={darkmode}/>
+      <PieChart darkmode={darkmode} />
       <div>
         <p className="pb-16 pt-28 dark:text-white text-[35px] font-bold uppercase lg:text-center relative text-[#666] text-center">
           Experience & Education
