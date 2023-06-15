@@ -2,6 +2,81 @@ const TimeLine = () => {
   return (
     <div className="flex flex-col md:flex-row pb-10">
       <div className="flex flex-col w-full md:w-1/2 gap-y-10">
+        <div className="flex gap-x-3">
+          <div>
+            <div className="dark:bg-mainyellow bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] before:bg-mainGreen before:rounded-lg dark:before:bg-mainyellow before:w-[2px] before:h-24">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#fff"
+                strokeWidth="2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="flex flex-col ">
+            <span>
+              <span className="bg-[#eee] dark:bg-[#363636] dark:text-gray-300 text-gray-500 rounded-full text-sm px-3 py-1">
+                2022 - Present
+              </span>
+            </span>
+            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">
+              Front-End Developer
+            </h3>
+            <h3 className="text-[15px] text-gray-500 dark:text-gray-300 mb-3">
+              Limooshirin agency
+            </h3>
+            <p className="dark:text-white text-sm font-light text-[#313131]">
+              Wordpress Developer , Working with docker and Dockerize Wordpress
+              Sites , Collaborate with Big Companies (Shahr Farsh , Neshan , DG
+              Tag ,...)
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-x-3">
+          <div>
+            <div className="dark:bg-mainyellow bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] before:bg-mainGreen before:rounded-lg dark:before:bg-mainyellow before:w-[2px] before:h-24">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#fff"
+                strokeWidth="2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="flex flex-col ">
+            <span>
+              <span className="bg-[#eee] dark:bg-[#363636] dark:text-gray-300 text-gray-500 rounded-full text-sm px-3 py-1">
+                2020 - Present
+              </span>
+            </span>
+            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">
+              Web Developer
+            </h3>
+            <h3 className="text-[15px] text-gray-500 dark:text-gray-300 mb-3">
+              CMC Digital Marketing Agency
+            </h3>
+            <p className="dark:text-white text-sm font-light text-[#313131]">
+              Technical Manager , WordPress Developer , Design and Improving our
+              Websites is My Main Goal in Company.
+            </p>
+          </div>
+        </div>
         <div className="flex gap-x-3 ">
           <div>
             <div className="dark:bg-mainyellow bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] before:rounded-lg dark:before:bg-mainyellow before:bg-mainGreen before:w-[2px] before:h-24">
@@ -77,43 +152,7 @@ const TimeLine = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-x-3">
-          <div>
-            <div className="dark:bg-mainyellow bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] before:bg-mainGreen before:rounded-lg dark:before:bg-mainyellow before:w-[2px] before:h-24">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="#fff"
-                strokeWidth="2"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                />
-              </svg>
-            </div>
-          </div>
-          <div className="flex flex-col ">
-            <span>
-              <span className="bg-[#eee] dark:bg-[#363636] dark:text-gray-300 text-gray-500 rounded-full text-sm px-3 py-1">
-                2020 - Present
-              </span>
-            </span>
-            <h3 className="text-[20px] dark:text-white mt-3 text-[#313131]">
-              Web Designer
-            </h3>
-            <h3 className="text-[15px] text-gray-500 dark:text-gray-300 mb-3">
-              CMC Digital Marketing Agency
-            </h3>
-            <p className="dark:text-white text-sm font-light text-[#313131]">
-              I am WordPress Developer , Design and Improve our Website is My
-              Main Goal in Company
-            </p>
-          </div>
-        </div>
+
         <div className="flex gap-x-3">
           <div>
             <div className="dark:bg-mainyellow bg-mainGreen p-2 rounded-full relative before:content-[''] before:absolute before:top-[100%] before:left-[50%] before:bg-mainGreen before:rounded-lg dark:before:bg-mainyellow before:w-[2px] before:h-24">

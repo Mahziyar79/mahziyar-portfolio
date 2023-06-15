@@ -1,4 +1,4 @@
-import Image from "../assets/images/image.jpg";
+import Image from "../assets/images/main-img1.jpg";
 
 const aboutSvg = (
   <svg
@@ -26,7 +26,7 @@ const Home = ({ setSelectedPage }) => {
           <img
             src={Image}
             alt="userImage"
-            className="h-[calc(100vh-80px)] shadow-lg rounded-3xl z-10 hidden lg:flex object-cover"
+            className="h-[calc(100vh-80px)] shadow-lg rounded-3xl z-10 hidden lg:flex object-cover w-full"
           />
         </div>
         <div className="lg:w-[60%] p-6 w-[100%] min-h-screen text-white z-20 flex flex-wrap items-center">

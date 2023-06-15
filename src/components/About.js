@@ -1,4 +1,4 @@
-import mainImage from "../assets/images/image.jpg";
+import mainImage from "../assets/images/main-img1.jpg";
 import Button from "../common/Button";
 import resume from "../assets/docs/Resume.pdf";
 import TimeLine from "./TimeLine";
