@@ -42,14 +42,14 @@ const Home = ({ setSelectedPage }) => {
               <h1 className="dark:text-mainyellow text-mainGreen xl:before:content-[''] before:content-none before:absolute before:top-[42%] before:-left-[8%] before:rounded-lg before:dark:bg-mainyellow before:bg-mainGreen before:w-10 before:h-2 relative">
                 I'm Mahziyar Gilanpour.
               </h1>
-              <p className="dark:text-[#bebebe] text-[#666]">web Developer</p>
+              <p className="dark:text-[#bebebe] text-[#666]">Front-End Developer</p>
             </div>
-            <div className="mt-4 dark:text-[#bebebe] text-[#666]">
+            <div className="mt-4 dark:text-[#bebebe] text-[#666] leading-8">
               I'm a Interested in Web Programming and Very Good Familiarity with
-              Reactjs & Nextjs & Tailwindcss and doing all Kinds of Exercises
-              such as Online store or personal site or even professional panel
-              for the companies , I am passionate about building excellent
-              software that improves the lives of those around me.
+              Reactjs & Nextjs & Tailwindcss & Wordpress and Above all of them I
+              am a Very Motivated and Hardworking Person that can add more
+              Motivation to your Company , I am passionate about building
+              excellent software that improves the lives of those around me.
             </div>
             <div>
               <div
